@@ -52,7 +52,7 @@ pipeline {
                         docker rm -f ${IMAGE_NAME} || true
                         docker rm -f star-agile-banking-finance
                         # Run the container on port 3000
-                        docker run -d --name star-agile-banking-finance -p 3000:8082 subkamble/star-agile-banking-finance:latest
+                        docker run -d --name star-agile-banking-finance -p 3000:8083 subkamble/star-agile-banking-finance:latest
 
                     """
                 }
